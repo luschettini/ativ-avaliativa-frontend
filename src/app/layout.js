@@ -8,7 +8,7 @@ const font = Roboto ({
 });
 
 export const metadata = {
-    title: "<Prova FrontEnd>",
+    title: "Prova FrontEnd",
     icons: {
     icon: "/icons/favicon.ico",
   },
