@@ -101,7 +101,7 @@ export default function Cursos() {
                                     src={
                                         curso.photo && curso.photo.startsWith("http")
                                             ? curso.photo
-                                            : "/image/220.svg"
+                                            : "/images/220.svg"
                                     }
                                     width={220}
                                     height={220}

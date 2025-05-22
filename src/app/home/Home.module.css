@@ -3,12 +3,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #f0f2f5;
+    background: linear-gradient(135deg, #e0d2c2, #ebdfab);
 }
 
 .card {
     width: 800px;
-    background-color: rgba(209, 236, 236, 0.877);
+    background-color: rgba(255, 255, 255, 0.877);
     border-radius: 2rem;
     box-shadow: 0 4px 24px rgba(0,0,0,0.08);
     padding: 2rem 3rem;
@@ -61,8 +61,8 @@
 
 .list li {
     list-style: none;
-    font-size: 1rem;
-    color: #ae9292;
+    font-size: 0.9rem;
+    color: #000000;
     margin-bottom: 1rem;
 
 }

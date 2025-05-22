@@ -12,14 +12,14 @@ export default function Home() {
                 <div className={styles.content}>
                     <div className={styles.imageContainer}>
                     <Image
-                    src="/image/fotoluiza.jpeg"
+                    src="/images/fotoluiza.jpeg"
                     alt="imagem minha"
                     width={300}
                     height={400}
                     className={styles.image}
                     priority
 />
-                    </div>
+                </div>
                     <div className={styles.container}>
                         <div className={styles.description}>
                             <h2 className={styles.paragraph}>    </h2>
