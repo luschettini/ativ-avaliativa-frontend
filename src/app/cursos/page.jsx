@@ -63,7 +63,7 @@ export default function Cursos() {
 
     return (
         <div>
-            <h1>Lista de Cursos</h1>
+            <h1 className="title">Lista de Cursos</h1>
 
             <Pagination
                 current={data.current}
@@ -98,7 +98,7 @@ export default function Cursos() {
                                     src={
                                         curso.photo && curso.photo.startsWith("http")
                                             ? curso.photo
-                                            : "/images/220.svg"
+                                            : "/image/220.svg"
                                     }
                                     width={220}
                                     height={220}
