@@ -63,8 +63,8 @@ export default function Cursos() {
 
     return (
         <div>
-            <h1 className="title">Lista de Cursos</h1>
-
+            <div className={styles.paginationContainer}>
+            <h1 className={styles.h1}>Lista de Cursos</h1>
             <Pagination
                 current={data.current}
                 pageSize={data.pageSize}
@@ -75,15 +75,18 @@ export default function Cursos() {
                 showSizeChanger
                 pageSizeOptions={["5", "10", "100"]}
             />
+            </div>
 
             {data.loading ? (
+                <div className={styles.loadingContainer}>
                 <Image
-                    src="/icons/favicon.ico"
+                    src="/icons/loading.gif"
                     width={300}
                     height={200}
                     alt="Loading"
                     unoptimized
                 />
+                </div>
             ) : (
                 <div className={styles.cardsContainer}>
                     {paginatedCursos().map((curso) => (

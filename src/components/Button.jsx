@@ -1,14 +1,9 @@
-import styles from "../styles/Button.module.css";
+import styles from '../styles/Button.module.css'
 
-export default function CustomButton({ children, onClick, type = "button", ...props }) {
+export default function Button({title}) {
     return (
-        <button
-            className={styles.button}
-            type={type}
-            onClick={onClick}
-            {...props}
-        >
-            {children}
-        </button>
+        <div className={styles.button} >
+            <h3 className={styles.title}>{title}</h3>
+        </div>
     );
-}
+};
